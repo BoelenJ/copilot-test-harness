@@ -6,7 +6,7 @@
   "homepage": "https://BoelenJ.github.io/copilot-test-harness",
   "scripts": {
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
+    "deploy": "gh-pages -d dist",
     "dev": "vite",
     "build": "tsc -b && vite build",
     "lint": "eslint .",
